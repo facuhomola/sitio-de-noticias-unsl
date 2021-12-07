@@ -5,7 +5,13 @@
     --color-celeste: #1D70B7;
     --color-amarillo: #E4CB25;
     --color-grisFondo: #DFDFDF;
+    --color-azul: #304FD2;
     --opacidad-texto: 0.9;
+}
+
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
 }
 
 *{
@@ -21,6 +27,12 @@
 #logoHome{
     max-width: 160px;
 }
+/*navbar*/
+.contenedor-navbar{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
 
 .imgCarrousel{
     max-width: 100%;
@@ -47,6 +59,50 @@
     color: var(--color-secundario);
     opacity: 70%;
 }
+
+
+/*==========Contenido de cards==========*/
+/*cards*/
+.tarjetas{
+    border-radius: 9%;
+    
+    margin-bottom: 4%;
+}
+
+/*titulos para imagenes cards*/
+.card-titulos{
+    background-color: var(--color-azul);
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    font-family:  'Montserrat', sans-serif;;
+    width: 100%;
+    height: 35px;
+    font-size: medium;
+    padding: 4%;
+    text-align: center;
+    border-bottom-left-radius: 8%;
+    border-top-left-radius: 8%;
+    border-bottom-right-radius: 8%;
+    border-top-right-radius: 8%;
+    border-style: none;
+}
+/*tamaño de divs en cards*/
+.conteneder-imagenes{
+    max-width: 99%;
+    max-height: 250px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+/*tamaños de imagenes para cards*/
+.img-cards{
+    margin-top: 1%;
+    border-radius: 9%;
+    max-width: 99%;
+    max-height: 220px;
+}
+
+/*==========Fim Contenido de cards==========*/
 
 /*footer*/
 #piePagina{
@@ -147,3 +203,4 @@
     margin-top: 2%;
     margin-left: 2%;
 }
+/*Fin footer*/
