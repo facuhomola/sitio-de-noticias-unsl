@@ -1,0 +1,149 @@
+/*colores*/
+:root {
+    --color-principal: #090028;
+    --color-secundario: #FFFFFF;
+    --color-celeste: #1D70B7;
+    --color-amarillo: #E4CB25;
+    --color-grisFondo: #DFDFDF;
+    --opacidad-texto: 0.9;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+/*imagenes*/
+/*.imagen{
+    width: 290px;
+    height: 100px;
+}*/
+
+#logoHome{
+    max-width: 160px;
+}
+
+.imgCarrousel{
+    max-width: 100%;
+    max-height: 580px;
+}
+
+/*sombras para imagenes de carrousel*/
+.sombra{
+    background-color: #000;
+}
+
+/*logos de medios*/
+.logosMedios{
+    max-height: 29.56px;
+    max-width: 29px;
+}
+
+/*color al pasar el mouse por los items del menu*/
+#navbarNav li a{
+    opacity: 70%;
+}
+#navbarNav li a:hover{
+    background-color: var(--color-celeste) !important;
+    color: var(--color-secundario);
+    opacity: 70%;
+}
+
+/*footer*/
+#piePagina{
+    background-color: #090028;
+}
+
+/*logos de institucion y sitio de noticias*/
+/*.contenedor-logonoticas{
+    width: 50%;
+}*/
+.logosUNI{
+    max-height: 157px;
+    max-width: 264px;
+}
+
+/*tamaño de logos de footer*/
+.logosFooter{
+    max-width: 19px;
+    max-height: 19px;
+    margin-right: 2%;
+}
+.listasContactoSecciones label{
+    margin-bottom: 2%;
+}
+/*lista de contacto y ubicacion*/
+.listasContactoSecciones{
+    list-style: none;
+    display: block;
+}
+#listaContacto li{
+    margin-bottom: 2%;
+}
+
+/*secciones*/
+#hSecciones{
+    margin-top: 10%;
+    font-size: medium;
+}
+
+/*links de secciones*/
+.linkInactivos{
+    text-decoration: none;
+    color: var(--color-secundario);
+}
+
+/*contenedor suscribir*/
+#contendedor-suscribir{
+    margin-top: 4%;
+    max-width: 547px;
+    height: 248px;
+    border-radius: 5%;
+    background-color: #041860;
+    padding: 5%;
+}
+#contendedor-suscribir p{
+    color: var(--color-secundario);
+    opacity: 70%;
+}
+#contendedor-suscribir form input{
+    width: 70%;
+    height: 46px;
+    opacity: 45%;
+    text-align: left;
+    border-radius: 4%;
+    border-style: none;
+    padding-left: 5%;
+    margin: 0%;
+}
+
+#contendedor-suscribir form button{
+    width: 55px;
+    height: 55px;
+    border-style: none;
+    border-radius: 50%;
+    margin-left: -5%;
+}
+/*bonton enviar mail*/
+#btn-enviar{
+    max-width: 25px;
+    max-height: 25px;
+}
+
+/*imagenes de redes sociales*/
+.contenedor-redes{
+    margin: 2%;
+}
+.img-redesSociales{
+    display: inline-block;
+    max-width: 45px;
+    max-height: 45px;
+    margin-right: 3%;
+}
+
+/*Imagen de UNSL*/
+#imgUNSL{
+    max-width: 280px;
+    max-height: 82px;
+    margin-top: 2%;
+    margin-left: 2%;
+}
