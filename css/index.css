@@ -18,6 +18,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: var(--color-grisFondo);
+}
+
 /*imagenes*/
 /*.imagen{
     width: 290px;
@@ -67,7 +71,7 @@
 .tarjetas{
     border-radius: 9%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    height: 290px;
+    
 }
 
 /*links de noticias*/
@@ -91,7 +95,7 @@
     margin-top: 1%;
     border-radius: 9%;
     max-width: 99%;
-    max-height: 220px;
+    max-height: 250px;
 }
 
 /*==========Fim Contenido de cards==========*/
