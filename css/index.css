@@ -62,34 +62,26 @@
 
 
 /*==========Contenido de cards==========*/
+
 /*cards*/
 .tarjetas{
     border-radius: 9%;
-    
-    margin-bottom: 4%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 290px;
 }
 
-/*titulos para imagenes cards*/
-.card-titulos{
-    background-color: var(--color-azul);
-    margin: 0%;
-    padding: 0%;
-    color: white;
-    font-family:  'Montserrat', sans-serif;;
-    width: 100%;
-    height: 35px;
-    font-size: medium;
-    padding: 4%;
-    text-align: center;
-    border-bottom-left-radius: 8%;
-    border-top-left-radius: 8%;
-    border-bottom-right-radius: 8%;
-    border-top-right-radius: 8%;
-    border-style: none;
+/*links de noticias*/
+.tarjetas a{
+    text-decoration: none;
+    color: var(--color-principal);
 }
+.tarjetas a:hover{
+    color: var(--color-celeste);
+}
+
 /*tamaño de divs en cards*/
 .conteneder-imagenes{
-    max-width: 99%;
+    max-width: 100%;
     max-height: 250px;
     padding-left: 2%;
     padding-right: 2%;
@@ -186,9 +178,6 @@
 }
 
 /*imagenes de redes sociales*/
-.contenedor-redes{
-    margin: 2%;
-}
 .img-redesSociales{
     display: inline-block;
     max-width: 45px;
