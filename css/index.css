@@ -32,27 +32,40 @@ body{
     max-width: 160px;
 }
 /*navbar*/
-.contenedor-navbar{
-    /*padding-left: 10%;
-    padding-right: 10%;*/
+
+/*botones-carousel*/
+.botones-slide{
+    height: 38.88px;
+    width: 230.34px;
+    border-radius: 60px;
+    background: linear-gradient(0deg, #000A91 0%, #003ACE 100%);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+    color: white;
+    margin-bottom: 1%;
 }
 
 
-
-.imgCarrousel{
-    max-width: 100%;
-    max-height: 580px;
+/*tamaño de imagenes carrousel y sombra*/
+.slide img{
+    max-height: 45vw;
+    filter: brightness(50%);
 }
 
-/*sombras para imagenes de carrousel*/
-.sombra{
-    background-color: #000;
-}
 
 /*logos de medios*/
 .logosMedios{
     max-height: 29.56px;
     max-width: 29px;
+}
+
+/*encabezados de carrusel*/
+.carrusel-encabezado{
+    display: block;
+    width: 100%;
+    border: solid white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*color al pasar el mouse por los items del menu*/
@@ -72,7 +85,6 @@ body{
 .tarjetas{
     border-radius: 7%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    
 }
 
 /*links de noticias*/
