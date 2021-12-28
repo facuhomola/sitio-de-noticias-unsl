@@ -9,10 +9,10 @@
     --opacidad-texto: 0.9;
 }
 
-@font-face {
+/*@font-face {
     font-family: 'Montserrat', sans-serif;
     src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
-}
+}*/
 
 *{
     box-sizing: border-box;
@@ -20,6 +20,12 @@
 
 body{
     background-color: var(--color-grisFondo);
+}
+
+/*fuentes para encabezados de secciones*/
+.encabezados-secciones{
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
 }
 
 /*imagenes*/
@@ -33,7 +39,7 @@ body{
 }
 /*navbar*/
 
-/*botones-carousel*/
+/*botones*/
 .botones-slide{
     height: 38.88px;
     width: 230.34px;
@@ -42,8 +48,20 @@ body{
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
     color: white;
     margin-bottom: 1%;
-}
+}/*Botones para carousel*/
 
+.botones-vermas{
+    height: 44px;
+    width: 122px;
+    background-color: #4B48E9;
+    color: var(--color-secundario);
+    background: linear-gradient(0deg, #304FD2 0%, #6461FE 72.56%, #A055FF 100%);
+    box-shadow: 0 10px 27px 0 rgba(0,0,0,0.1);
+    border-radius: 60px;
+    text-decoration: none;
+    text-align: center;
+    font-size: small;
+}/*botones de ver mas (se utilizan en el apartado 'etiquetas')*/
 
 /*tamaño de imagenes carrousel y sombra*/
 .slide img{
