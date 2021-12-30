@@ -28,6 +28,12 @@ body{
     text-align: left;
 }
 
+/*fuente para navbar*/
+.contenedor-navbar{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
 /*imagenes*/
 /*.imagen{
     width: 290px;
@@ -38,6 +44,22 @@ body{
     max-width: 160px;
 }
 /*navbar*/
+
+/*boton de medios*/
+.dropdown-toggle{
+    height: 32px;
+    width: 122px;
+    border-radius: 30px;
+    background-color: #0F0042;
+    color: var(--color-secundario);
+    text-align: center;
+    font-size: 14px;
+    padding: 1%;
+    border-style: none;
+}
+.dropdown-toggle:hover{
+    color: var(--color-secundario);
+}
 
 /*botones*/
 .botones-slide{
@@ -50,6 +72,17 @@ body{
     margin-bottom: 1%;
 }/*Botones para carousel*/
 
+/*botones para imagen previa y siguiente en carrusel*/
+.btn-carrusel{
+    height: 55.1px;
+    width: 55.24px;
+    background-color: #1D1F24;
+    margin-top: auto;
+    margin-bottom: auto;
+    opacity: 70%;
+}
+
+
 .botones-vermas{
     height: 44px;
     width: 122px;
@@ -60,7 +93,7 @@ body{
     border-radius: 60px;
     text-decoration: none;
     text-align: center;
-    font-size: small;
+    font-size: 20px;
 }/*botones de ver mas (se utilizan en el apartado 'etiquetas')*/
 
 /*tamaño de imagenes carrousel y sombra*/
@@ -72,6 +105,7 @@ body{
 
 /*logos de medios*/
 .logosMedios{
+    max-zoom: 5%;
     max-height: 29.56px;
     max-width: 29px;
 }
@@ -157,6 +191,17 @@ body{
 }
 
 /*=========Fin contenido de agenda universitaria========*/
+
+/*=========Barra separadora UNSL TV*/
+#canalUNSLTV{
+    background-color: #0C003E;
+    width: 100%;
+    color: var(--color-secundario);
+}
+#canalUNSLTV p{
+    font-family: 'Raleway', sans-serif;
+}
+/*=========Fin barra separadora UNSL TV*/
 
 /*=========Contenido de etiquetas============*/
 .img-etiquetas{
